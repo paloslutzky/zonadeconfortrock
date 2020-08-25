@@ -1,0 +1,220 @@
+ /* Home*/
+
+body {
+	background-color: #151515;
+}
+
+header {
+	width:100%;
+	padding: 1rem 2rem 1.5rem 2rem;
+	display: flex;
+	justify-content: flex-end;
+}
+
+header li {
+	display: inline-block;
+	list-style: none;
+	padding-left: 1rem;
+	padding-top: 1rem;
+	padding-right: 1rem;
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	font-size: 1rem;
+	color: white;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+    color:#FACE03;
+    text-decoration: none;
+}
+
+h1 {
+	font-family: 'Black Ops One', cursive;
+	color: #FACE03;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 5rem;
+}
+
+h1:hover {
+	color:red;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	text-align: center;
+	color: white;
+	font-size: 1.5rem;
+	justify-content: center;
+}
+
+.center {
+	text-align: center;
+}
+
+.videoclip {
+    width:95%;
+	height:600px;
+	display: block;
+	margin: 0 auto;
+}
+
+.linkspag {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.linksinternos {
+    display: flex;
+    width: 250px;
+    height: 250px;
+}
+
+.redes {
+	display: grid;
+	grid-template-columns: repeat(3,40px);
+	grid-template-rows: 40px;
+	grid-column-gap: 20px;
+	justify-content: center;
+	align-content: center;
+}
+ .socials {
+     width: 40px;
+     height: 40px;
+ }
+
+ /* Discografia */
+
+ .amarillo {
+    background-color: #FACE03;
+ }
+ 
+ .amarillo li {
+     color: whitesmoke;
+ }
+
+ .amarillo a:hover {
+     color: black;
+     text-decoration: none;
+ }
+
+ .titulo {
+     font-size: 3rem;
+     padding-top: 20px;
+ }
+
+ .follow {
+     margin-left: 320px;
+     display: flex;
+ }
+
+.album {
+    width: 250px;
+    height: 250px;
+}
+
+h3 {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+
+h4 {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+}
+
+.spotify {
+	display: block;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.nombrealbum {
+	padding-left: 30px;
+}
+
+/* Shows */
+
+.rojo {
+	background-color: red;
+}
+
+.rojo a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+/* Rig Rundown */
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-weight: bold;
+	font-size: 1rem;
+}
+
+.rigsgral {
+	display: flex;
+	width: 80%;
+	height: 800px;
+	padding: 10px;
+	margin-left: 150px;
+	flex-flow: column wrap;
+	align-items: baseline;
+}
+
+.rigtxt {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-weight: normal;
+	font-size: 1rem;
+	text-align: left;
+}
+
+.rigs {
+	padding: 50px 50px 0px 50px;
+	display: inline-block;
+}
+
+/* Nosotros */
+
+.integrantes {
+	height: 350px;
+	padding: 30px;
+}
+
+.perfiles {
+	display: flex;
+}
+
+.derecha {
+	margin-right: 200px;
+}
+
+.izquierda {
+	margin-left: 200px;
+}
+
+.nombres {
+	font-size: 1.5rem;
+	font-weight: bold;
+	padding-top: 30px;
+}
+
+.txtderecha {
+	text-align: right;
+	font-size: 1.5rem;
+}
+
+.txtizquierda {
+	text-align: left;
+	font-size: 1.5rem;
+}
