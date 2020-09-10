@@ -83,7 +83,7 @@ p {
 	justify-content: center;
 	align-content: center;
 }
- .socials {
+.socials {
      width: 40px;
      height: 40px;
  }
@@ -166,17 +166,19 @@ h2 {
 	margin-left: 150px;
 	flex-flow: column wrap;
     align-items: baseline;
-    .rigs {
-        padding: 50px 50px 0px 50px;
-        display: inline-block;
-        .rigtxt {
-            font-family: 'Roboto', sans-serif;
-            color: white;
-            font-weight: normal;
-            font-size: 1rem;
-            text-align: left;
-        }
-    }
+}
+
+.rigs {
+    padding: 50px 50px 0px 50px;
+    display: inline-block;
+}
+
+.rigtxt {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: normal;
+    font-size: 1rem;
+    text-align: left;
 }
 
 /* Nosotros */
