@@ -165,9 +165,38 @@ h4 {
   background-color: red;
 }
 
-.rojo a:hover {
+a:hover {
   color: black;
   text-decoration: none;
+}
+
+.nombreshow {
+  font-family: 'Black Ops One', cursive;
+  color: #FACE03;
+  font-size: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.galeria {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (400px)[3];
+      grid-template-columns: repeat(3, 400px);
+  -ms-grid-rows: 400px;
+      grid-template-rows: 400px;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.trastienda {
+  height: 400px;
+  width: 400px;
 }
 
 /* Rig Rundown */

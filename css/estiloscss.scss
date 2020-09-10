@@ -90,7 +90,7 @@ p {
 
  /* Discografia */
 
- .amarillo {
+.amarillo {
     background-color: #FACE03;
     li {
         color: whitesmoke;
@@ -143,10 +143,34 @@ h4 {
 
 .rojo {
 	background-color: red;
-  a:hover {
+}
+
+a:hover {
     color: black;
     text-decoration: none;
-  }
+}
+
+.nombreshow {
+    font-family: 'Black Ops One', cursive;
+    color: #FACE03;
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3,400px);
+	grid-template-rows: 400px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+	justify-content: center;
+	align-content: center;
+}
+
+.trastienda {
+    height: 400px;
+    width: 400px;
 }
 
 /* Rig Rundown */
